@@ -1,0 +1,26 @@
+[
+  {
+    "id": "contract-exists-romashka",
+    "question": "Был ли у нас договор с ООО Ромашка?",
+    "expected_to_find": true,
+    "must_include": ["договор", "ромашка"]
+  },
+  {
+    "id": "contract-end-date-romashka",
+    "question": "Когда заканчивается договор с ООО Ромашка?",
+    "expected_to_find": true,
+    "must_include": ["ромашка"]
+  },
+  {
+    "id": "contract-amount-test",
+    "question": "На какую сумму у нас договор с ООО Тест?",
+    "expected_to_find": true,
+    "must_include": ["сумм", "тест"]
+  },
+  {
+    "id": "no-evidence-unknown",
+    "question": "Есть ли у нас договор с ООО Совсем Неизвестная Компания?",
+    "expected_to_find": false,
+    "must_include": []
+  }
+]
