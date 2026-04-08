@@ -1,5 +1,7 @@
 # Local Corporate RAG MVP
 
+[![Tests](https://github.com/semichev-yaroslav/corporate-rag-mvp/actions/workflows/tests.yml/badge.svg)](https://github.com/semichev-yaroslav/corporate-rag-mvp/actions/workflows/tests.yml)
+
 Локальный MVP для поиска по корпоративным документам с `FastAPI`, `PostgreSQL + pgvector`, локальным embedder-сервисом и `Telegram`-ботом.
 
 Проект собирался как рабочий пилот для запуска на личном ноутбуке в `Windows 11 + WSL2 + Ubuntu 22.04`. Это не production-развертывание, а демонстрационная версия, которая показывает полный `end-to-end` сценарий:
@@ -9,6 +11,12 @@
 - hybrid retrieval по архиву;
 - генерация ответа с источниками;
 - работа через `Telegram` и HTTP API.
+
+## Status
+
+- Репозиторий опубликован как публичный MVP-демо.
+- Unit-тесты запускаются через GitHub Actions.
+- Текущий deploy-стенд поднимается локально на домашнем ПК по согласованному времени.
 
 ## Что реализовано
 
